@@ -91,15 +91,16 @@ public class STAssignment3 {
     public static void main(String[] args) {
         int kill = 19, death = 3, assist = 8, baron = 2, dragon = 3,flag1=0,flag2=0;
 	float kda = 0, bd = 0;
+        System.out.println("Current Rank!");
 	System.out.println("IGN: Player");
 	System.out.println("Current Rank: Platinum");
 	System.out.println("Series: Promos Series to Diamond");
 	System.out.println("");
 	kda = caluculateKDA(kill, death, assist);
 	bd = baronDragonRatio(baron, dragon);
-	System.out.println("Press Enter to View Rank Calculation Result.");
+	System.out.println("Calculating . . . .");
+	System.out.println("Successfully Caculated !!!");
 	System.out.println("");
-	
 	if (kda >= 2 && kda <= 33)
 	{
 		flag1 = 1;
@@ -112,6 +113,8 @@ public class STAssignment3 {
 	{
 		rankCalculation(kda, bd);
 		System.out.println("");
+                System.out.println("Updated Rank!");
+                System.out.println("");
 		System.out.println("IGN: Player");
 		System.out.println("Current Rank: Diamond");
 	}
