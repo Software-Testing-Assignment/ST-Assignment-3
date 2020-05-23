@@ -7,7 +7,7 @@ package st.assignment.pkg3;
 
 /**
  *
- * @author abdul
+ * @author abdulrahman
  */
 public class STAssignment3 {
 
