@@ -15,7 +15,7 @@ public class STAssignment3 {
 		k = kill;
 		flag1 = 1;
 	}
-	if (death > 0 && death <= 6)
+	if (death >= 0 && death <= 6)
 	{
 		d = death;
 		flag2 = 1;
