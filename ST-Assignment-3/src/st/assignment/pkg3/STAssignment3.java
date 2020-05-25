@@ -61,7 +61,7 @@ public class STAssignment3 {
 	}
 	return ratioBD;
     }
-    public static void rankCalculation(float KDA, float BD)
+    public static boolean rankCalculation(float KDA, float BD)
     {
 	int flag1 = 0, flag2 = 0;
 	if (KDA >= 6 && KDA <= 20)
@@ -75,10 +75,12 @@ public class STAssignment3 {
 	if (flag1 == 1 && flag2 == 1)
 	{
             System.out.println("Congratulations You Have Achieved Diamond Rank.");
+            return true;
 	}
 	else
 	{
             System.out.println("Sorry! you were unsuccessful to achieve Diamond Rank.");
+            return false;
 		
 	}
     }
